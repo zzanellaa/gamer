@@ -49,23 +49,35 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+.carousel-inner .carousel-item img{
+    width: 100%;
+    margin: auto;
+    max-height: 800px;
+    padding-top: 85px;
+}
+
+
 #carouselExampleInterval{
     position: relative;
     z-index: 10;
-    padding-top: 75px;
-    width: 100%;   
+    padding-top: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 6px 6px 6px #0000007a;
+    transition: 0.3s;  
 }
 #carouselExampleInterval img {
     height: 100%;
     width: 100%;
 }
+
 /*CSS Estilos Banner */
 .section-banner-home {
     width: 100%;
     height: 500px;
     margin-top: 10px;
     padding: 50px;
-    background-color: #005caa;
+    background-color: #7e8081;
 }
 .section-banner-home img {
     height: 400px;
@@ -79,15 +91,17 @@ body, ul {
     font-size: 30px;
     width: 60%;
     padding-bottom: 20px;
+    color: white;
 }
 .section-banner-home .texto-banner p {
     font-size: 15px;
     margin-bottom: 20px;
+    color: white;
 }
 .section-banner-home .texto-banner a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: #fff;
+    background-color: #bd0a0aa2;
     padding: 4px 14px;
     font-size: 15px;
 }
