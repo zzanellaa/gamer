@@ -101,7 +101,7 @@ body, ul {
 .section-banner-home .texto-banner a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: #bd0a0aa2;
+    background-color: #f3f1f1a2;
     padding: 4px 14px;
     font-size: 15px;
 }
@@ -146,4 +146,44 @@ body, ul {
 
 .destaque img{
     height: 300px;
+}
+/* fim css destaque */
+
+/* inicio css novidades */
+
+.novidades .text-body {
+    width: 80%;
+    margin: 70px;
+}
+.novidades h2 {
+    color: #0000;
+}
+.novidades p {
+    color: rgb(0, 0, 0);
+}
+.novidades a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: violet;
+    padding: 6px 12px;
+    background-color: rgb(0, 68, 194);
+    font-weight: 400;
+}
+/* fim css novidades */
+/* inicio css galeria */
+.galeria {
+    margin: 60px auto 20px;
+}
+.galeria h2{
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p{
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50%;
+}
+.galeria .galerry{
+    width: 30%;
+    margin: 14px auto 50px;
 }
