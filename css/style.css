@@ -250,14 +250,23 @@ body, ul {
     width: 50%;
     margin: 14px auto 50%;
 }
-.galeria .galerry{
+.galeria .gallery {
     width: 30%;
     margin: 14px auto 50px;
 }
 .galeria .gallery img {
-    width: 80%;
+    width: 70%;
     height: 80%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    display: block;
 }
+.galeria .gallery img:hover {
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
 /* fim css galeria */
 
 /* inicio css footer */
@@ -267,6 +276,11 @@ body, ul {
 }
 .rodape .container img {
     height: 200px;
+    padding-left: 10px;
+    transition: transform .2s;
+}
+.rodape .container img:hover {
+    transform: scale(1.5);
 }
 
 .rodape .info-contato p {
