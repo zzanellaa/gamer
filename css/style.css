@@ -41,6 +41,7 @@ body, ul {
       justify-content: space-between;
       background: #e7e7e7;
 }
+
 #menu {
     display: flex;
     list-style: none;
@@ -308,5 +309,43 @@ body, ul {
 }
 /* fim css footer */
 
+/* inicio css streaming  */
+
+.embed-container{
+    position:relative;
+    padding-bottom: 0;
+    height: auto;
+    max-width: 100%;
+    margin-top: 18px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.embed-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;     
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: gray 0.5em 0.5em 0.3em;
+}
+.embed-container .col-sm {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* fim css streaming */
 
  
