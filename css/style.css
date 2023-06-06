@@ -11,6 +11,7 @@ body, ul {
     font-size: 1.25em;
     text-transform: uppercase;
     transition: 0.3s;
+    padding-left: 10px;
 }
 #menu a:hover {
     color: crimson;
@@ -50,25 +51,29 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+/*  
 .carousel-inner .carousel-item img{
     width: 100%;
     margin: auto;
     max-height: 800px;
     padding-top: 85px;
 }
-
+*/
 
 #carouselExampleInterval{
     position: relative;
     z-index: 10;
     padding-top: 0px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
     box-shadow: 6px 6px 6px #0000007a;
     transition: 0.3s;  
+    width: 100%;
+    display: inline-flex; 
 }
-#carouselExampleInterval img {
-    height: 100%;
+#carouselExampleInterval .carousel-inner img {
+    height: 800px;
     width: 100%;
 }
 @media (max-width:600px) {
@@ -293,7 +298,14 @@ body, ul {
 .rodape a {
     text-decoration: none;
     color: #000;
-    font-size: 13px;
+    font-size: 14px;
+}
+.rodape .link_rodape {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    margin-left: 0.3rem;
+    padding-left: 0.3rem;
 }
 .rodape a:hover {
     font-weight: bold;
@@ -305,6 +317,15 @@ body, ul {
 .rodape .redes-sociais img {
     width: 45px;
     height: 40px;
+    padding-left: 0;
+    margin-left: 0.7rem;
+    transition: transform .3s;
+    border-radius: 15px;
+}
+.rodape .redes-sociais img:hover {
+    z-index: 1;
+    transform: scale(1.5);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.446) ;*/
 }
 .rodape p.direitos {
     text-align: center;
@@ -465,7 +486,7 @@ body, ul {
 /* inicio whatsaap */
 .whatsapp {
     position: fixed;
-    z-index: 2;
+    z-index: 200;
     top: 200px;
     right: 20px;
 }
